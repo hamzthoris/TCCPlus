@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+}
+/* Fontes de Texto */
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/poppins/Poppins-Bold.ttf');
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/poppins/Poppins-Medium.ttf');
+  }
+
+@font-face {
+    font-family: Product-Bold;
+    src: url('../fonts/prod/Product-Bold.ttf');
+}
+
+@font-face {
+    font-family: Product-Regular;
+    src: url('../fonts/prod/Product-Regular.ttf');
+}
+
+.regular {
+    font-family: Product-Regular;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #141414;
+    color: white;
+}
+
+.navbar-title {
+    margin: 0;
+    font-family: Product-Bold;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #308be0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); 
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #fff;
+    padding: 40px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
+    width: 400px; 
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 30px; 
+}
+
+.btn {
+    background-color: #141414;
+    color: white;
+    border: none;
+    padding: 15px 30px; 
+    margin: 10px; 
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: Product-Bold;
+}
+
+.btn:hover {
+    background-color: #0d1217;
+}
+
+/* Formulário */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="text"]::placeholder {
+    color: #999;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="email"]::placeholder {
+    color: #999;
+}
+
+input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="password"]::placeholder {
+    color: #999;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="number"]::placeholder {
+    color: #999;
+}
+.form-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 150px; 
+    text-align: center; 
+    align-items: center;
+    font-family: Product-Bold;
+}
+button:hover {
+    background-color: #1c1c1c;
+}
+
+.span1 {
+    margin-bottom: -10px;
+    padding: -10px;
+    font-size: 20px;
+    font-family: Product-Bold;
+}
+
+.link1 {
+    font-family: Product-Bold;
+}
+
+.form-cad {
+    border-color: #141414;
+    border-width: 4px;
+    margin: 5px;
+}
